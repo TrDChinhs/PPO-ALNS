@@ -1,0 +1,5 @@
+# PPO-ALNS for VRPTW — Dependencies
+torch
+numpy
+matplotlib
+tqdm

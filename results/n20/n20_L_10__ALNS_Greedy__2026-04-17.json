@@ -1,0 +1,53 @@
+{
+  "instance": "n20_L_10",
+  "method": "ALNS_Greedy",
+  "init_method": "greedy",
+  "results": {
+    "best_cost": 40.1106,
+    "distance": 0.1106,
+    "num_vehicles": 4,
+    "tw_violations": 0.0,
+    "runtime_seconds": 0.05,
+    "iterations": 100,
+    "best_found_at_iter": 25,
+    "init_cost": 40.1266
+  },
+  "routes": [
+    [
+      0,
+      9,
+      14,
+      2,
+      13,
+      16,
+      0
+    ],
+    [
+      0,
+      3,
+      11,
+      7,
+      1,
+      0
+    ],
+    [
+      0,
+      19,
+      8,
+      20,
+      12,
+      15,
+      5,
+      17,
+      0
+    ],
+    [
+      0,
+      10,
+      6,
+      4,
+      18,
+      0
+    ]
+  ]
+}

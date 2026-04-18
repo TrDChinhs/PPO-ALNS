@@ -1,0 +1,235 @@
+{
+  "instance": "n20_L_4",
+  "method": "PPO_ALNS_Greedy",
+  "init_method": "greedy",
+  "results": {
+    "best_cost": 30.1011,
+    "distance": 0.1011,
+    "num_vehicles": 3,
+    "tw_violations": 0.0,
+    "runtime_seconds": 0.68,
+    "iterations": 100,
+    "best_found_at_iter": 100,
+    "init_cost": 30.1134
+  },
+  "routes": [
+    [
+      0,
+      17,
+      12,
+      10,
+      3,
+      8,
+      15,
+      6,
+      0
+    ],
+    [
+      0,
+      9,
+      4,
+      11,
+      7,
+      14,
+      13,
+      16,
+      0
+    ],
+    [
+      0,
+      18,
+      19,
+      2,
+      20,
+      1,
+      5,
+      0
+    ]
+  ],
+  "depot": {
+    "x": 0.447,
+    "y": 0.5386
+  },
+  "customers": [
+    {
+      "id": 1,
+      "x": 0.1278,
+      "y": 0.9066,
+      "demand": 12,
+      "tw_start": 0.3435,
+      "tw_end": 0.7518,
+      "service_time": 0.0786
+    },
+    {
+      "id": 2,
+      "x": 0.0147,
+      "y": 0.6785,
+      "demand": 4,
+      "tw_start": 0.099,
+      "tw_end": 0.489,
+      "service_time": 0.0799
+    },
+    {
+      "id": 3,
+      "x": 0.434,
+      "y": 0.031,
+      "demand": 2,
+      "tw_start": 0.4744,
+      "tw_end": 0.9615,
+      "service_time": 0.0677
+    },
+    {
+      "id": 4,
+      "x": 0.7379,
+      "y": 0.5158,
+      "demand": 3,
+      "tw_start": 0.2814,
+      "tw_end": 0.6929,
+      "service_time": 0.0784
+    },
+    {
+      "id": 5,
+      "x": 0.1946,
+      "y": 0.7904,
+      "demand": 15,
+      "tw_start": 0.5457,
+      "tw_end": 0.9209,
+      "service_time": 0.0614
+    },
+    {
+      "id": 6,
+      "x": 0.5648,
+      "y": 0.5209,
+      "demand": 11,
+      "tw_start": 0.5112,
+      "tw_end": 0.872,
+      "service_time": 0.0731
+    },
+    {
+      "id": 7,
+      "x": 0.903,
+      "y": 0.6342,
+      "demand": 3,
+      "tw_start": 0.3309,
+      "tw_end": 0.8106,
+      "service_time": 0.0652
+    },
+    {
+      "id": 8,
+      "x": 0.6176,
+      "y": 0.0867,
+      "demand": 10,
+      "tw_start": 0.3803,
+      "tw_end": 0.7488,
+      "service_time": 0.089
+    },
+    {
+      "id": 9,
+      "x": 0.6617,
+      "y": 0.4899,
+      "demand": 16,
+      "tw_start": 0.1044,
+      "tw_end": 0.5456,
+      "service_time": 0.0833
+    },
+    {
+      "id": 10,
+      "x": 0.1868,
+      "y": 0.0071,
+      "demand": 8,
+      "tw_start": 0.0031,
+      "tw_end": 0.4173,
+      "service_time": 0.0548
+    },
+    {
+      "id": 11,
+      "x": 0.6958,
+      "y": 0.6491,
+      "demand": 8,
+      "tw_start": 0.024,
+      "tw_end": 0.3907,
+      "service_time": 0.0986
+    },
+    {
+      "id": 12,
+      "x": 0.138,
+      "y": 0.0485,
+      "demand": 11,
+      "tw_start": 0.1391,
+      "tw_end": 0.5392,
+      "service_time": 0.0726
+    },
+    {
+      "id": 13,
+      "x": 0.6696,
+      "y": 0.7992,
+      "demand": 10,
+      "tw_start": 0.4968,
+      "tw_end": 0.9376,
+      "service_time": 0.084
+    },
+    {
+      "id": 14,
+      "x": 0.8968,
+      "y": 0.7632,
+      "demand": 4,
+      "tw_start": 0.5014,
+      "tw_end": 0.8084,
+      "service_time": 0.0611
+    },
+    {
+      "id": 15,
+      "x": 0.7046,
+      "y": 0.3099,
+      "demand": 16,
+      "tw_start": 0.2705,
+      "tw_end": 0.7637,
+      "service_time": 0.0844
+    },
+    {
+      "id": 16,
+      "x": 0.495,
+      "y": 0.7557,
+      "demand": 11,
+      "tw_start": 0.2513,
+      "tw_end": 0.7498,
+      "service_time": 0.0547
+    },
+    {
+      "id": 17,
+      "x": 0.0247,
+      "y": 0.1069,
+      "demand": 6,
+      "tw_start": 0.1016,
+      "tw_end": 0.46,
+      "service_time": 0.0507
+    },
+    {
+      "id": 18,
+      "x": 0.4993,
+      "y": 0.9975,
+      "demand": 8,
+      "tw_start": 0.2639,
+      "tw_end": 0.7081,
+      "service_time": 0.0814
+    },
+    {
+      "id": 19,
+      "x": 0.3037,
+      "y": 0.8263,
+      "demand": 13,
+      "tw_start": 0.125,
+      "tw_end": 0.5672,
+      "service_time": 0.0748
+    },
+    {
+      "id": 20,
+      "x": 0.0687,
+      "y": 0.8558,
+      "demand": 3,
+      "tw_start": 0.116,
+      "tw_end": 0.546,
+      "service_time": 0.0869
+    }
+  ]
+}

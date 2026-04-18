@@ -1,0 +1,239 @@
+{
+  "instance": "n20_L_10",
+  "method": "PPO_ALNS_Greedy",
+  "init_method": "greedy",
+  "results": {
+    "best_cost": 40.1205,
+    "distance": 0.1205,
+    "num_vehicles": 4,
+    "tw_violations": 0.0,
+    "runtime_seconds": 7.68,
+    "iterations": 100,
+    "best_found_at_iter": 100,
+    "init_cost": 40.1266
+  },
+  "routes": [
+    [
+      0,
+      19,
+      9,
+      1,
+      18,
+      7,
+      11,
+      3,
+      0
+    ],
+    [
+      0,
+      8,
+      14,
+      20,
+      12,
+      15,
+      5,
+      17,
+      0
+    ],
+    [
+      0,
+      2,
+      13,
+      16,
+      4,
+      10,
+      0
+    ],
+    [
+      0,
+      6,
+      0
+    ]
+  ],
+  "depot": {
+    "x": 0.6102,
+    "y": 0.5113
+  },
+  "customers": [
+    {
+      "id": 1,
+      "x": 0.8428,
+      "y": 0.3148,
+      "demand": 3,
+      "tw_start": 0.3491,
+      "tw_end": 0.8325,
+      "service_time": 0.0931
+    },
+    {
+      "id": 2,
+      "x": 0.6263,
+      "y": 0.6233,
+      "demand": 9,
+      "tw_start": 0.3398,
+      "tw_end": 0.7217,
+      "service_time": 0.0562
+    },
+    {
+      "id": 3,
+      "x": 0.7722,
+      "y": 0.4283,
+      "demand": 11,
+      "tw_start": 0.4562,
+      "tw_end": 0.8705,
+      "service_time": 0.0775
+    },
+    {
+      "id": 4,
+      "x": 0.6681,
+      "y": 0.0572,
+      "demand": 15,
+      "tw_start": 0.5823,
+      "tw_end": 0.9148,
+      "service_time": 0.0629
+    },
+    {
+      "id": 5,
+      "x": 0.3456,
+      "y": 0.0828,
+      "demand": 14,
+      "tw_start": 0.4984,
+      "tw_end": 0.9059,
+      "service_time": 0.0629
+    },
+    {
+      "id": 6,
+      "x": 0.5824,
+      "y": 0.3735,
+      "demand": 14,
+      "tw_start": 0.3736,
+      "tw_end": 0.8609,
+      "service_time": 0.0663
+    },
+    {
+      "id": 7,
+      "x": 0.855,
+      "y": 0.3295,
+      "demand": 14,
+      "tw_start": 0.2326,
+      "tw_end": 0.7132,
+      "service_time": 0.0622
+    },
+    {
+      "id": 8,
+      "x": 0.8874,
+      "y": 0.9426,
+      "demand": 7,
+      "tw_start": 0.0611,
+      "tw_end": 0.5506,
+      "service_time": 0.0874
+    },
+    {
+      "id": 9,
+      "x": 0.7533,
+      "y": 0.6731,
+      "demand": 13,
+      "tw_start": 0.0741,
+      "tw_end": 0.3976,
+      "service_time": 0.0956
+    },
+    {
+      "id": 10,
+      "x": 0.6187,
+      "y": 0.4385,
+      "demand": 8,
+      "tw_start": 0.511,
+      "tw_end": 0.8886,
+      "service_time": 0.0571
+    },
+    {
+      "id": 11,
+      "x": 0.8971,
+      "y": 0.3558,
+      "demand": 12,
+      "tw_start": 0.4959,
+      "tw_end": 0.9006,
+      "service_time": 0.0534
+    },
+    {
+      "id": 12,
+      "x": 0.0808,
+      "y": 0.9088,
+      "demand": 4,
+      "tw_start": 0.4358,
+      "tw_end": 0.8212,
+      "service_time": 0.0898
+    },
+    {
+      "id": 13,
+      "x": 0.4733,
+      "y": 0.5979,
+      "demand": 13,
+      "tw_start": 0.0597,
+      "tw_end": 0.5084,
+      "service_time": 0.0607
+    },
+    {
+      "id": 14,
+      "x": 0.6585,
+      "y": 0.8176,
+      "demand": 5,
+      "tw_start": 0.2296,
+      "tw_end": 0.7169,
+      "service_time": 0.0806
+    },
+    {
+      "id": 15,
+      "x": 0.0834,
+      "y": 0.8896,
+      "demand": 13,
+      "tw_start": 0.3473,
+      "tw_end": 0.6519,
+      "service_time": 0.0546
+    },
+    {
+      "id": 16,
+      "x": 0.5123,
+      "y": 0.4911,
+      "demand": 10,
+      "tw_start": 0.4584,
+      "tw_end": 0.9249,
+      "service_time": 0.0781
+    },
+    {
+      "id": 17,
+      "x": 0.4231,
+      "y": 0.0454,
+      "demand": 7,
+      "tw_start": 0.3727,
+      "tw_end": 0.8694,
+      "service_time": 0.0986
+    },
+    {
+      "id": 18,
+      "x": 0.8296,
+      "y": 0.1578,
+      "demand": 7,
+      "tw_start": 0.6269,
+      "tw_end": 0.9408,
+      "service_time": 0.0518
+    },
+    {
+      "id": 19,
+      "x": 0.783,
+      "y": 0.8452,
+      "demand": 4,
+      "tw_start": 0.2587,
+      "tw_end": 0.7075,
+      "service_time": 0.0572
+    },
+    {
+      "id": 20,
+      "x": 0.5106,
+      "y": 0.8532,
+      "demand": 11,
+      "tw_start": 0.1718,
+      "tw_end": 0.599,
+      "service_time": 0.0788
+    }
+  ]
+}
